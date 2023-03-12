@@ -1,0 +1,19 @@
+body {
+    background-color:darkolivegreen;
+}
+button{
+    background-color: bisque;
+    font-family: 'Gentium Plus', serif;
+
+}
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
