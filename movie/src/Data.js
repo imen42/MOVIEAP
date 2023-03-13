@@ -5,6 +5,7 @@ export const moviesData = [
         rating:3,
         name: "Harry Poter 1",
         date:"whateva",
+        trailer:"https://www.youtube.com/embed/gHe3sul7C_E",
 
     },
     {
@@ -13,6 +14,8 @@ export const moviesData = [
         rating:5,
         name: "Harry Poter 2",
         date:"whateva",
+        trailer:"https://www.youtube.com/embed/jBltxS8HfQ4",
+
 
     },
     {
@@ -21,6 +24,8 @@ export const moviesData = [
         rating:5,
         name: "Harry Poter 3",
         date:"whateva",
+        trailer:"https://www.youtube.com/embed/uDiawFy4NJc",
+
  
     },
     {
@@ -29,6 +34,7 @@ export const moviesData = [
         rating:5,
         name: "Harry Poter 4",
         date:"whateva",
+        trailer:"https://www.youtube.com/embed/QUJNOttpUn8"
 
     },
     {
@@ -37,6 +43,8 @@ export const moviesData = [
         rating:5,
         name: "Harry Poter 5",
         date:"whateva",
+        trailer:"https://www.youtube.com/embed/WIj9DYJ5EKk",
+
 
     },
     {
@@ -45,6 +53,8 @@ export const moviesData = [
         rating:5,
         name: "Harry Poter 6",
         date:"whateva",
+        trailer:"https://www.youtube.com/embed/tAiy66Xrsz4",
+
 
     },
     {
@@ -53,6 +63,8 @@ export const moviesData = [
         rating:5,
         name: "Harry Poter 7 part 1",
         date:"whateva",
+        trailer:"https://www.youtube.com/embed/MxqsmsA8y5k",
+
 
     },
     {
@@ -61,6 +73,8 @@ export const moviesData = [
         rating:9,
         name: "Harry Poter 7 part ",
         date:"whateva",
+        trailer:"https://www.youtube.com/embed/5NYt1qirBWg",
+
 
     },
 ];

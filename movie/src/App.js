@@ -5,6 +5,9 @@ import MovieCard from './Component/MovieCard';
 import MovieList from './Component/MovieList';
 import Search from './Component/Search';
 import { moviesData } from './Data';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import MovieDetails from './Component/MovieDetails';
+
 
 
 function App() {
@@ -17,10 +20,17 @@ function App() {
   const handleText = (e)=> setText (e.target.value)
   return (
     <div className="App">
-      <Search  text={text} handleText={handleText}/>
-      <MovieList moviee ={movies} handleDelete={handleDelete} handleEdit={handleEdit} />
-      <AddMovie handleAdd={handleAdd} />
-     
+      <BrowserRouter>
+      <Search text={text} handleText={handleText}/>
+      <Routes>
+      {/* <Route path="/" element={}/>  */}
+      <Route path="/" element={<div><MovieList moviee ={movies} handleDelete={handleDelete} handleEdit={handleEdit}  /> <AddMovie handleAdd={handleAdd} />  </div>}/>
+      <Route
+            path="/moviedetails/:id"
+            element={<MovieDetails movie={moviesData} />}
+          ></Route>
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }

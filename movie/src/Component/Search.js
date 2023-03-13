@@ -5,7 +5,7 @@ const Search = ({text , handleText}) => {
     <div className='header-container'>
         <div className='search'>
         <input type="text" placeholder='Enter movie name'  value={text} onChange={handleText}/>
-      
+        <button>search</button>
     </div>
     </div>
   )
